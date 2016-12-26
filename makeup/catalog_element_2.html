@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Коффеплюс</title>
+    <!-- Bootstrap -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="template_styles.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/functions.js"></script>
+  </head>
+  <body>
+    <div id="header" class="navbar-fixed-top">
+      <div class="headerLine">
+        <div class="topHead container">
+
+          <div class="logo topHeadBlock">
+            <a href="/"><img src="images/logo.png" alt=""></a>
+          </div>
+
+          <div class="topPhoneBlock topHeadBlock hidden-xs">
+            <div class="topPhone pull-left">8 (8182) 43 17 20</div>
+            <div class="topFeedback pull-left"><a href="#">Заказать звонок</a></div>
+          </div>
+
+          <div class="topContactBlock topHeadBlock">
+            <div class="topButton pull-left"><a href="#" class="topLK "><span class="visible-lg">Вход в кабинет</span></a> </div>
+            <div class="topButton pull-left"><a href="#" class="topBasket">
+              <span class="visible-lg">Сумма: 1 546 руб.</span>
+            <div class="basketCount">5</div>
+            </a></div>
+            <div class="topButton pull-left hidden-lg bottonBordRight" id="menuOpen">
+              <div class="navButton"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+      <div class="menuBlock container">
+        <div class="menuPhone visible-xs">
+          <div class="topPhone">8 (8182) 43 17 20</div>
+          <div class="topFeedback"><a href="#">Заказать звонок</a></div>
+        </div>
+        <ul class="nav">
+          <li class="active"><a href="#">Главная</a></li>
+          <li><a href="#">Интернет-магазин</a></li>
+          <li><a href="#">Сервис</a></li>
+          <li><a href="#">Блог</a></li>
+          <li><a href="#">О компании</a></li>
+          <li><a href="#">Доставка и оплата</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </div>
+    </div>
+
+    
+
+
+    <div class="container">
+      <div class="breadcrumbs"><a href="#">Главная</a>  ›  <a href="#">Интернет-магазин</a>  ›  <a href="#">Кофе</a>  ›  <a href="#">Молотый</a>  ›  <span>NIVONA 767 CafeRomatica</span></div>
+      <div class="catalog">
+        <div class="row">
+          <div class="col-lg-4 col-xs-12">
+            <div class="search">
+              <form action="">
+                <input placeholder="Поиск по каталогу"type="text">
+                <input type="submit" value="">
+              </form>
+            </div>
+            <div class="catalogOpenButton hidden-lg">
+              Каталог товаров
+            </div>
+            <div class="catalogLeftMenu">
+              <ul>
+                <li class="subOpen"><span>Кофе</span><div class="rowAll"></div>
+                  <ul>
+                    <li><a href="#">Зерно</a></li>
+                    <li class="active"><a href="#">Молотый</a></li>
+                    <li><a href="#">Чалды</a></li>
+                    <li><a href="#">Капсулы</a></li>
+                  </ul>
+                </li>
+                <li class="subClose"><span>Чай</span><div class="rowAll rowClose"></div>
+                  <ul>
+                    <li><a href="#">Весовой чай</a></li>
+                    <li><a href="#">Пакетированный чай для чашек </a></li>
+                    <li><a href="#">Пакетированный чай для чайника</a></li>
+                    <li><a href="#">Пирамидки</a></li>
+                  </ul>
+                </li>
+                <li class="subClose"><span>Сиропы</span><div class="rowAll rowClose"></div>
+                </li>
+                <li class="subClose"><span>Шоколад</span><div class="rowAll rowClose"></div>
+                </li>
+                <li class="subClose"><span>Посуда и аксессуары</span><div class="rowAll rowClose"></div>
+                  <ul>
+                    <li><a href="#">Чайные аксессуары  </a></li>
+                    <li><a href="#">Кофейные аксессуары</a></li>
+                  </ul>
+                </li>
+                <li class="subClose"><span>Чистящие средства</span><div class="rowAll rowClose"></div>
+                </li>
+                <li class="subClose"><span>Оборудование</span><div class="rowAll rowClose"></div>
+                  <ul>
+                    <li><a href="#">Кофемашины</a></li>
+                    <li><a href="#">Кофемолки</a></li>
+                    <li><a href="#">Кипятильники</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-12 col-xs-12">
+            <div class="catTopInfo visible-lg">
+              <div class="row">
+                <div class="col-lg-4 col-xs-12">
+                  <p class="freeshipping">Бесплатная доставка<br>по Архангельску<br>при заказе от 500 рублей.</p>
+                </div>
+                <div class="col-lg-4 col-xs-12">
+                  <p class="payment">Оплата по карте<br>или наличными курьеру.</p>
+                </div>
+                <div class="col-lg-4 col-xs-12">
+                  <p class="service">Бесплатный сервис<br>для постоянных клиентов.</p>
+                </div>
+                <div class="col-lg-4 col-xs-12">
+                  <p class="cleaners">Бесплатные средства<br>для чистки кофемашин<br>для наших клиентов.</p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- карточка товара -->
+            <div class="catalogOneCart newGrid12">
+              <div class="row">
+                <div class="hidden-lg col-xs-12"><div class="catalogOneCartTtl"><h1>NIVONA 767 CafeRomatica</h1></div></div>
+                <div class="col-lg-6 col-sm-6 col-xs-12">
+                  <div class="cartImgBlock">
+                    <div class="cartImgBlockBig">
+                      <img src="images/TEMP/card1.jpg" alt=""> 
+                    </div> 
+                    <div class="cartImgBlockSmall">
+                      <div class="imgSlideRow imgSlideRowLeft"></div>
+                      <div class="imgSlideRow imgSlideRowRight"></div>
+                      <div class="cartImgBlockSmallOne"><img src="images/TEMP/card1.jpg" alt=""> </div>
+                      <div class="cartImgBlockSmallOne"><img src="images/TEMP/card2.jpg" alt=""> </div>
+                      <div class="cartImgBlockSmallOne"><img src="images/TEMP/card3.jpg" alt=""> </div>
+                      <div class="clearfix"></div>
+                    </div>
+                    <div class="saleRibbon"></div>
+                  </div>
+                </div>
+                
+                <div class="col-lg-6 col-sm-6 col-xs-12">
+                  <div class="row">
+                    <div class="col-lg-12 visible-lg"><div class="catalogOneCartTtl"><h1>NIVONA 767 CafeRomatica</h1></div></div>
+                    <div class="col-lg-6 col-xs-12">
+                      <div class="catalogOneCartPrice">83 600 руб.</div>
+                    </div>
+                    <div class="col-lg-6 col-xs-12">
+                      <a href="#" class="greenButton catalogOneCartToBasket">В корзину</a>
+                      <div class="cartOneBonus">Бонус за заказ: <span class="redBall">3 балла</span></div>
+                    </div>
+                    <div class="col-lg-12 col-xs-12">
+                      <div class="greyLine cartfirstLine"></div>
+                    </div>
+                    <div class="col-lg-12 col-xs-12">
+                      <div class="catalogOneCartDescr">
+                        <div class="catOneCartDeckLine">Очень тихая, высококачественная коническая кофемолка из нержавеющей стали. Капучинатор (Spumatore) – устройство для вспенивания.</div>
+                        <div class="catOneCartDeckLine"><span class="catalogOneCartDescrTtl">Бренд:</span> NIVONA (Германия).</div>
+                        <div class="catOneCartDeckLine"><span class="catalogOneCartDescrTtl">Наличие:</span> <span class="inStock">Товар в наличии</span><span class="custom">Товар под заказ (?)</span></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-xs-12">
+                      <div class="pickup"><a href="#" class="cartDelivery">Забрать в магазине</a> в будни 10:00 – 18:00
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-xs-12">
+                      <div class="shipping"><a href="#" class="cartDelivery">Доставка на дом</a> бесплатно
+                      </div>
+                    </div>
+                    <div class="col-lg-12 col-xs-12">
+                      <div class="greyLine cartsecondLine"></div>
+                    </div>
+                    <div class="col-lg-6 col-xs-12">
+                      <span class="ballInfo">Расскажите друзьям и получите 3 бонусных балла</span>
+                    </div>
+                    <div class="col-lg-6 col-xs-12">
+                      <div class="plusoBlock">
+                        <script type="text/javascript">(function() {
+                        if (window.pluso)if (typeof window.pluso.start == "function") return;
+                        if (window.ifpluso==undefined) { window.ifpluso = 1;
+                          var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+                          s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
+                          s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
+                          var h=d[g]('body')[0];
+                          h.appendChild(s);
+                        }})();</script>
+                        <div class="pluso" data-background="transparent" data-options="medium,round,line,horizontal,nocounter,theme=04" data-services="vkontakte,facebook,twitter,odnoklassniki,google" data-url="http://ЗАМЕНА_ССЫЛКА" data-title="ЗАМЕНА_ЗАГАЛОКО" data-description="ЗАМЕНА_ОПИСАНИЕ"></div>
+                      </div>
+                      
+                    </div>
+
+                  </div>
+                 <!--  <div class="catalogOneCart1">
+                    <div class="catalogOneCartTtl"><h1>La semeuse Versailles | Ла семёз Версаль</h1></div>
+                    <div class="catalogOneCartPrice">654 руб.</div>
+                    <a href="#" class="greenButton catalogOneCartToBasket">В корзину</a>
+                    <div class="clearfix visible-lg"></div>
+                    <div class="cartOneBonus">Бонус за заказ: <span class="redBall">3 балла</span></div>
+                    <div class="clearfix visible-lg"></div>
+                  </div>
+                  <div class="catalogOneCart2">
+                    <div class="catOneCartDeckLine"><span class="catalogOneCartDescrTtl">Состав:</span> 100% Арабика.</div>
+                    <div class="catOneCartDeckLine"><span class="catalogOneCartDescrTtl">Вес:</span> 250 гр.</div>
+                    <div class="catOneCartDeckLine"><span class="catalogOneCartDescrTtl">Бренд:</span> La Semeuse (Швейцария).</div>
+                    <div class="catOneCartDeckLine"><span class="catalogOneCartDescrTtl">Наличие:</span> Товар в наличии</div>
+                  </div> -->
+
+                </div>
+                <div class="col-lg-12 col-xs-12">
+                  <div class="catalogOneCartFullDescr">
+                    <div class="catalogOneCartDescrTtl">Описание:</div>
+                    - Удобная подставка для хранения чашек<br>
+                    - Энергосберегающий режим ECO<br>
+                    - Очень тихая, высококачественная коническая кофемолка из нержавеющей стали<br>
+                    - Капучинатор (Spumatore) – устройство для вспенивания<br>
+                    - Цифровой текстовый дисплей для простоты использования<br>
+                    - Выбор температуры (3 уровня)<br>
+                    - Автоматические программы обслуживания (промывка, очистка, удаление накипи)<br>
+                    - Автоматический контроль уровня наполнения<br>
+                    - Подсветка чашек создаёт особую атмосферу<br>
+
+                    <div class="cartOneCharacteristics">
+                      <div class="catalogOneCartDescrTtl">Характеристики:</div>
+
+                      <div class="row">
+                        <div class="col-lg-5 col-md-6 col-sm-7 col-xs-12 gpb">Цвет (панель/кнопки):</div>
+                        <div class="col-lg-7 col-md-6 col-sm-5 col-xs-12">серебристый алюминий / хром</div>
+
+                        <div class="col-lg-5 col-md-6 col-sm-7 col-xs-12 gpb">Габаритные размеры (Ш x В x Г), см:</div>
+                        <div class="col-lg-7 col-md-6 col-sm-5 col-xs-12">24 x 34 x 46</div>
+
+                        <div class="col-lg-5 col-md-6 col-sm-7 col-xs-12 gpb">Контейнер для кофейных зерен, вместимость:</div>
+                        <div class="col-lg-7 col-md-6 col-sm-5 col-xs-12">250 r</div>
+
+                        <div class="col-lg-5 col-md-6 col-sm-7 col-xs-12 gpb">Съемная емкость для воды:</div>
+                        <div class="col-lg-7 col-md-6 col-sm-5 col-xs-12">2,2 l</div>
+
+                        <div class="col-lg-5 col-md-6 col-sm-7 col-xs-12 gpb">Макс. входная мощность:</div>
+                        <div class="col-lg-7 col-md-6 col-sm-5 col-xs-12">1455 Вт</div>
+
+                        <div class="col-lg-5 col-md-6 col-sm-7 col-xs-12 gpb">Масса, вкл. упаковку:</div>
+                        <div class="col-lg-7 col-md-6 col-sm-5 col-xs-12">11,0 кг</div>
+
+                        <div class="col-lg-5 col-md-6 col-sm-7 col-xs-12 gpb">Регулирование температуры кофе:</div>
+                        <div class="col-lg-7 col-md-6 col-sm-5 col-xs-12">3 уровня</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- end карточка товара -->
+
+            <!-- вам может понравиться -->
+            <div class="youCanLikeBlock">
+              <div class="youCanLikeTtl">Вам может понравиться</div>
+              <div class="catItems newGrid12">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="item gtile-i-wrap">
+                      <div class="gtile-i">
+                        <div class="gtile-i-box"> 
+                          <div class="catalogSectImg"><img alt="" src="images/TEMP/card2.jpg"></div>
+                          <h3>La semeuse Mocca | Ла семёз Мокка, 250 гр.</h3>
+                          <div class="price">
+                            <span>1 000 руб.</span>
+                          </div>
+                          
+                          <div class="itemButtonBlock">
+                            <a href="#" class="catalogButton catalogtoBasket">В корзину</a>
+                            <a href="#" class="catalogButton catalogReadMore">Подробнее</a>
+                            <div class="clearfix"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="item gtile-i-wrap">
+                      <div class="gtile-i">
+                        <div class="gtile-i-box"> 
+                          <div class="catalogSectImg"><img alt="" src="images/TEMP/card3.jpg"></div>
+                          <h3>La semeuse Versailles | Ла семёз Версаль, 250 гр.</h3>
+                          <div class="price">
+                            <span>1 000 руб.</span>
+                          </div>
+                          
+                          <div class="itemButtonBlock">
+                            <a href="#" class="catalogButton catalogtoBasket">В корзину</a>
+                            <a href="#" class="catalogButton catalogReadMore">Подробнее</a>
+                            <div class="clearfix"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="item gtile-i-wrap">
+                      <div class="gtile-i">
+                        <div class="gtile-i-box"> 
+                          <div class="catalogSectImg"><img alt="" src="images/TEMP/card4.jpg"></div>
+                          <h3>Danesi Gold | Данези Голд, 250 гр.</h3>
+                          <div class="price">
+                            <span>1 000 руб.</span><span class="oldPrice">1 000 руб.</span>
+                          </div>
+                          
+                          <div class="itemButtonBlock">
+                            <a href="#" class="catalogButton catalogtoBasket">В корзину</a>
+                            <a href="#" class="catalogButton catalogReadMore">Подробнее</a>
+                            <div class="clearfix"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="saleRibbon"></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 visible-sm">
+                    <div class="item gtile-i-wrap">
+                      <div class="gtile-i">
+                        <div class="gtile-i-box"> 
+                          <div class="catalogSectImg"><img alt="" src="images/TEMP/card4.jpg"></div>
+                          <h3>Danesi Gold | Данези Голд, 250 гр.</h3>
+                          <div class="price">
+                            <span>1 000 руб.</span><span class="oldPrice">1 000 руб.</span>
+                          </div>
+                          
+                          <div class="itemButtonBlock">
+                            <a href="#" class="catalogButton catalogtoBasket">В корзину</a>
+                            <a href="#" class="catalogButton catalogReadMore">Подробнее</a>
+                            <div class="clearfix"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="saleRibbon"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              
+            <!-- вам может понравиться -->
+            <div class="catTopInfo hidden-lg">
+              <div class="row">
+                <div class="col-lg-4 col-sm-6 col-xs-6">
+                  <p class="freeshipping">Бесплатная доставка по Архангельску при заказе от 500 рублей.</p>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-6">
+                  <p class="payment">Оплата по карте или наличными курьеру.</p>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-6">
+                  <p class="service">Бесплатный сервис для постоянных клиентов.</p>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-6">
+                  <p class="cleaners">Бесплатные средства для чистки кофемашин для наших клиентов.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      
+    </div>
+
+
+    <div id="footer">
+      <div class="container">
+        <div class="row footerFirst">
+          <div class="col-lg-4 col-xs-12 footContact">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="footerlogo">
+                  <a href="/"><img src="images/logo.png" alt=""></a>
+                </div>
+              </div>
+              <div class="col-lg-16 col-sm-6">
+                
+                <div class="footerPhone">
+                  <div class="footerPhoneOne">8 (8182) 43-17-20</div>
+                  <div class="footerPhoneOne">8 (911) 680-29-99</div>
+                </div>
+                <div class="footerContacts">
+                  Для клиентов компании
+                  <a href="mailto:coffeplus@yandex.ru">coffeplus@yandex.ru</a>
+                </div>
+                <div class="footerContacts">
+                  Для коммерческих предложений<br/>
+                  и технических вопросов
+                  <a href="mailto:coffesup@yandex.ru">coffesup@yandex.ru</a>
+                </div>
+              </div>
+              <div class="col-lg-16 col-sm-6 footerSotcialAll">
+                <div class="footerSotcial">
+                  <a href="#" class="footerSotcOne vk"></a>
+                  <a href="#" class="footerSotcOne inst"></a>
+                </div>
+                <div class="cards_sm hidden-lg pull-left">
+                  
+                </div>
+              </div>
+            </div>
+           
+            
+          </div>
+          <div class="col-lg-3 col-sm-3 col-xs-12">
+            <div class="footerMenuTitle">О компании<div class="footerMenuRow visible-xs"></div></div>
+            <ul class="footerMenuSect">
+              <li><a href="#">Кофе Плюс</a></li>
+              <li><a href="#">Контакты</a></li>
+              <li><a href="#">Написать сообщение</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-3 col-xs-12">
+            <div class="footerMenuTitle">Сервис<div class="footerMenuRow visible-xs"></div></div>
+            <ul class="footerMenuSect">
+              <li><a href="#">Обслуживание</a></li>
+              <li><a href="#">Ремонт</a></li>
+              <li><a href="#">Доставка</a></li>
+              <li><a href="#">Оплата</a></li>
+              <li><a href="#">Возврат товара</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-sm-3 col-xs-12">
+            <div class="footerMenuTitle">Сотрудничество<div class="footerMenuRow visible-xs"></div></div>
+            <ul class="footerMenuSect">
+              <li><a href="#">Оптовым покупателям</a></li>
+              <li><a href="#">Сахар в стиках</a></li>
+              <li><a href="#">Барное и кухонное оборудование под ключ</a></li>
+              <li><a href="#">Аренда и тест-драйв кофемашины</a></li>
+              <li><a href="#">Поставщикам</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-3 col-xs-12">
+            <div class="footerMenuTitle">Личный кабинет<div class="footerMenuRow visible-xs"></div></div>
+            <ul class="footerMenuSect">
+              <li><a href="#">Корзина (0)</a></li>
+              <li><a href="#">Ваши бонусы</a></li>
+            </ul>
+            <div class="footervisamaster visible-lg">
+              <img src="images/icons/card.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="footerLine hidden-xs"></div>
+        <div class="footerSecond">
+          <div class="row">
+            <div class="col-lg-4 col-xs-6"><img src="images/nb.png" alt="" class="footerDevelopers"> <span class="footerDevelopersSpan">Маркетинговое сопровождение</span></div>
+            <div class="col-lg-4 col-xs-6"><img src="images/wb.png" alt="" class="footerDevelopers"> <span class="footerDevelopersSpan">Разработка сайта</span></div>
+            <div class="col-lg-8 col-xs-12">
+              <div class="copiright">
+                © 2016 Кофе Плюс. Все права защищены. Копирование материалов запрещено. <br>
+                Вся информация на данном сайте не является публичной офертой.<br>
+                <a href="#">Политика конфиденциальности</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+  </body>
+</html>

@@ -1,0 +1,1726 @@
+@media (min-width: 1260px) {
+  .menuBlock{
+    display: block !important;
+  }
+  .newGrid12 .col-lg-2{
+    width: 16.66666667%;
+  }
+  .newGrid12 .col-lg-4{
+    width: 33.33%;
+  }
+  .newGrid12 .col-lg-5{
+    width: 41.66%;
+  }
+  .newGrid12 .col-lg-6{
+    width: 50%;
+  }
+  .newGrid12 .col-lg-7{
+    width: 58.33%;
+  }
+  .newGrid12 .col-lg-8{
+    width: 66.66%;
+  }
+  .newGrid12 .col-lg-12 {
+    width: 100%;
+  }
+  .catalogLeftMenu{
+    display: block !important;
+  }
+  .catalogFiltr{
+    display: block !important;
+  }
+  .rentFeature .col-lg-4,
+  .shugarFirst .col-lg-4{
+    width: 33.33%;
+  }
+
+}
+@media (min-width: 768px) {
+  .footerMenuSect{
+    display: block !important;
+  }
+}
+@media screen and (max-width: 1259px){
+  body{
+    padding-top: 60px;
+    margin-bottom: 764px;
+  }
+  .menuBlock{
+    display: none;
+    border:none;
+    background: #fff;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    width: 435px;
+    padding: 0;
+  }
+  .headerLine{
+    -webkit-box-shadow: -1px 2px 6px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow:    -1px 2px 6px 0px rgba(0, 0, 0, 0.1);
+    box-shadow:         -1px 2px 6px 0px rgba(0, 0, 0, 0.1);
+  }
+  .nav{
+    margin: 0;
+    padding-top: 50px;
+  }
+  .nav li{
+    display: block;
+    padding: 0;
+    height: 77px;
+  }
+  .menuBlock>ul>li>a{
+    padding: 0 0 0 60px;
+    line-height: 77px;
+    font-size: 24px;
+  }
+  .nav>li>a:hover {
+    color: #000;
+    border-left: 2px solid #c99d5f;
+    border-bottom: none;
+    padding-left: 58px;
+  }
+  .nav>li.active>a {
+    border-left: 2px solid #c99d5f;
+    border-bottom: none;
+    color: #c99d5f;
+    padding-left: 58px;
+  }
+
+  #header,
+  .topHead{
+    height: 60px;
+  }
+  .logo img{
+    width:162px;
+    height:30px;
+  }
+  #footer{
+    height: 764px;
+  }
+  h1{
+    font-size: 28px;
+  }
+  .mainText{
+    height: 253px;
+    padding-top: 90px;
+  }
+  .topPhone{
+    margin-top: 14px;
+  }
+  .topFeedback{
+    margin-top: 17px;
+  }
+  .topLK{
+    margin: 17px 0 0 16px;
+    width: 25px;
+    height: 30px;
+    padding: 0;
+    background: url(../images/icons/login_sm.png) no-repeat;
+  }
+  .topLK:hover{
+    background: url(../images/icons/login_sm.png) no-repeat 0 -30px;
+  }
+  .topBasket{
+    margin: 18px 0 0 14px;
+    width: 24px;
+    height: 30px;
+    padding: 0;
+    background: url(../images/icons/basket_sm.png) no-repeat;
+  }
+  .topButton{
+    border-left:1px solid #ccc;
+    height: 60px;
+    width: 61px;
+  }
+  .navButton{
+    margin: 20px 0 0 14px;
+    cursor: pointer;
+  }
+  .bottonBordRight{
+    /*border-right:1px solid #ccc;*/
+  }
+  .topContactBlock{
+    /*float:right;*/
+    position: fixed;
+    right:0px;
+  }
+  .topPhoneBlock{
+    margin-left: 60px;
+  }
+  .footerlogo{
+    text-align: center;
+  }
+  .footerFirst{
+    padding-top: 40px;
+  }
+  .footerPhone{
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .footerContacts{
+    margin-bottom: 10px;
+  }
+  .footerPhoneOne{
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .footerFirst{
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .copiright{
+    float:clear;
+    margin-top: 35px;
+    text-align: center;
+  }
+  .footerSecond{
+    text-align: center;
+    padding-top: 30px;
+  }
+  .footerMenuTitle{
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  .footerSotcial{
+    float:left;
+  }
+  .footerSotcOne{
+    width: 40px;
+    height: 40px;
+  }
+  .footerSotcOne.vk {
+    background: url(../images/icons/vkontakte_sm.png) no-repeat;
+    margin-right: 20px;
+  }
+  .footerSotcOne.vk:hover {
+    background: url(../images/icons/vkontakte_sm.png) no-repeat 0 -40px;
+  }
+  .footerSotcOne.inst {
+    background: url(../images/icons/instagram_sm.png) no-repeat;
+  }
+  .footerSotcOne.inst:hover {
+    background: url(../images/icons/instagram_sm.png) no-repeat 0 -40px;
+  }
+  .cards_sm{
+    background: url(../images/icons/card_sm.png) no-repeat;
+    width: 160px;
+    height: 42px;
+    margin-left: 20px;
+  }
+  .footerlogo img{
+    width: 162px;
+    height: 30px;
+  }
+  .blogListOne{
+    height: 194px;
+    margin-bottom: 24px;
+  }
+  .blogListTxt{
+    height: 125px;
+    overflow: hidden;
+  }
+  /*.blogListPrev{
+    height: 60px;
+    overflow: hidden;
+  }*/
+  .blogListTxt{
+    padding-top: 25px;
+  }
+  .blogListTtl{
+    margin-bottom: 10px;
+  }
+  
+  .addressBlock {
+    height: 292px;
+  }
+  .zahodi{
+    text-align: center;
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .addrTxt{
+    display: block;
+    float:left;
+    width: 250px;
+  }
+  .addr1,
+  .addr2{
+    margin-top: 50px;
+    line-height: 20px;
+  }
+  .addr1 img,
+  .addr2 img{
+    display: block;
+    float:left;
+  }
+  .addrTxtTtl{
+    display: block;
+  }
+  .catTopInfo p{
+    height: 135px;
+    padding: 0 10px;
+  }
+  .catalogLeftMenu{
+    display: none;
+  }
+  .catTopInfo{
+    margin-bottom: 80px;
+  }
+  .post{
+    margin-bottom: 80px;
+  }
+  .catParamItems .item h3{
+    font-size: 19px;
+  }
+  .catParamItems .testdrive .details h4{
+    font-size: 28px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 10px;
+  }
+  .catParamItems .testdrive .details p{
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .catParamItems .spec .details h4{
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  .catParamItems .spec .details ul li {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .catParamItems .spec .details ul {
+    margin-left: 0px;
+    padding-left: 30px;
+  }
+  .catParamItems .readmore {
+    bottom: 20px !important;
+    width: 160px !important;
+    padding: 10px 0 !important;
+  }
+  .greenButton{
+    font-size: 15px;
+  }
+  .catParamItems .tastyprice .details{
+    bottom: 70px;
+    font-size:16px;
+  }
+  .catParamItems .tastyprice .details strong{
+    font-size:24px;
+    padding-top: 10px;
+  }
+  .catalogOpenButton{
+    color: #fff;
+    font-size: 20px;
+    font-family: "Gotham Pro Medium";
+    padding: 13px 0 13px 70px;
+    background: url(../images/icons/catalog_menu.png) #c99d5f no-repeat 20px center;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+  }
+  .catalogLeftMenu>ul>li>span{
+    padding: 16px 60px;
+    font-size: 20px;
+  }
+  .catalogLeftMenu>ul>li>ul>li{
+    padding-left: 60px;
+  }
+  .catalogLeftMenu>ul{
+    border-top: none;
+  }
+  .rowAll{
+    width: 20px;
+    height: 10px;
+    background: url(../images/icons/arrow_sm.png) no-repeat left top;
+    right: 60px;
+  }
+  .catParamItems{
+    margin-top: 30px;
+  }
+  .catalogLeftMenu{
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow:    0px 0px 25px 0px rgba(0, 0, 0, 0.2);
+    box-shadow:         0px 0px 25px 0px rgba(0, 0, 0, 0.2);
+  }
+  .search input[type=text]{
+    padding: 24px 20px;
+  }
+  .search input[type=submit]{
+    width: 26px;
+    height: 26px;
+    background: url(../images/icons/search_sm.png) no-repeat left top;
+  }
+  .search input[type=submit]:hover{
+    background: url(../images/icons/search_sm.png) no-repeat left bottom;
+  }
+  .err404 img{
+    width: 100%;
+  }
+  .err404 h2,
+  .err404 .subheader{
+    font-size: 32px;
+  }
+  .err404 h2{
+    padding-top: 80px;
+    margin-bottom: 0px;
+  }
+  .err404 .subheader{
+    margin-bottom: 60px;
+    padding: 0;
+  }
+  .err404 .readmore{
+    width: 224px;
+  }
+  .err404 .desc{
+    padding: 30px 0 20px;
+  }
+  .err404{
+    margin-bottom: 80px;
+  }
+  .catalogFiltrOpen {
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    font: 20px "Gotham Pro Medium";
+    padding: 13px 0 13px 70px;
+    background: url(../images/icons/filtrOpen.png) #f7f8f9 no-repeat 23px center;
+    cursor: pointer;
+    margin-bottom: 40px;
+  }
+  .catalogFiltr{
+    margin-top: -40px;
+  }
+  .catFilter{
+    background: #fff;
+  }
+  .catFiltrBlock{
+    width: 475px;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+  .catFiltrName{
+    display: block;
+  }
+  .catFilter select {
+    float: right;
+    height: 35px;
+    padding: 0 10px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .filtrButtonBlock .buttonBlock{
+    padding: 10px 0;
+    font: normal 16px "Gotham Pro Medium";
+  }
+  .searchText{
+    font-size:20px;
+    margin-top:60px; 
+  }
+  .catalogOneCart{
+    margin-top: 60px;
+  }
+  .cartOneBonus{
+    float:right;
+    width:100px;
+    text-align: left;
+  }
+  .catalogOneCartToBasket{
+    float: left;
+    width:220px;
+    line-height: 48px;
+    font-size: 16px;
+  }
+  .catalogOneCartPrice{
+    margin-bottom: 20px;
+  }
+  .pickup{
+    margin-bottom: 20px;
+  }
+  .ballInfo{
+    display: block;
+    margin-bottom: 10px;
+  }
+  .youCanLikeBlock{
+    margin-bottom: 60px;
+  }
+  .cartImgBlockSmallOne{
+    width: 80px;
+    height: 80px;
+  }
+  .cartImgBlockSmall{
+    width: 270px;
+  }
+  .imgSlideRowLeft{
+    left:-10px;
+  }
+  .imgSlideRowRight{
+    right: -10px;
+  }
+  .pluso{
+    margin-bottom: 40px;
+  }
+  .cartOneCharacteristics td:nth-of-type(even) {
+    width: 50%;
+  }
+  .shippingBlock .box{
+    padding: 20px 0;
+  }
+  .shippingBlock .box p{
+    max-width: 360px;
+    margin: 0 auto;
+  }
+  .shippingBlock {
+    margin-bottom: 80px;
+  }
+  .basketEmpty {
+    margin: 60px 0 130px;
+  }
+  .basketEmpty h2,
+  .basketBlock h2{
+    font-size: 32px;
+  }
+  .basketEmpty .greenButton{
+    width: 223px;
+  }
+  .width12{
+    width: 100%;
+  }
+  .basketBlock{
+    margin: 60px 0 80px;
+  }
+  .basketAfter h2{
+    margin-bottom: 30px;
+  }
+  .basketAfter .shareTtl{
+    margin-bottom: 18px;
+  }
+  .basketAfter .greenButton{
+    width: 223px;
+  }
+  .cRow{
+    margin: 0 0 25px;
+    height: auto;
+    line-height: normal;
+  }
+  .basketTableRow{
+    height: 230px;
+    position: relative;
+  }
+  .cRowText{
+    text-align: left;
+  }
+  .basketImg{
+    line-height:230px;
+    height: 154px;
+    width: 154px;
+  }
+  .purgeDiv{
+    position: absolute;
+    right: 30px;
+    bottom:30px;
+    margin: 0;
+  }
+  .basketTableRow:nth-child(2){
+    border-top: 1px solid #d7d7d7;
+  }
+  .cRowTextTtl{
+    margin-top: 30px;
+  }
+  .cRowText span{
+    font: 18px "Gotham Pro Medium";
+  }
+  .refreshBlock a{
+    margin-right: 0;
+  }
+  .refresh:after{
+    content: '\A';
+    white-space: pre;
+  }
+  .contactBlock .cont3,
+  .contactBlock .cont4{
+    margin-left: 80px;
+  }
+  .contactBlock .box{
+    margin-bottom: 60px;
+  }
+  .rentBackForm{
+    margin-bottom: 60px;
+  }
+  .contactBlock h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .quest h3{
+    font-size: 20px;
+  }
+  .aboutBlock h1{
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  .aboutBlock .subheader {
+    margin-bottom: 60px;
+  }
+  .aboutBlock h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .about_ico1,
+  .about_ico2{
+    height: 114px;
+  }
+  .about_ico3,
+  .about_ico4{
+    height: 168px;
+  }
+  .about_ico5,
+  .about_ico6{
+    height: 162px;
+  }
+  .aboutBlock .about_ico1,
+  .aboutBlock .about_ico2,
+  .aboutBlock .about_ico3,
+  .aboutBlock .about_ico4{
+    margin-bottom: 40px;
+  }
+  .aboutBlock .about_ico5,
+  .aboutBlock .about_ico6{
+    margin-bottom: 0;
+  }
+  .aboutBlock .box {
+    margin-bottom: 80px;
+  }
+  .aboutBlock .clients h2 {
+    font-size: 32px;
+    margin-bottom: 60px;
+  }
+  .brands {
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+  }
+  .zayavkaBlock h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+  }
+  .zayavkaBlock .subheader {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .zayavkaBlockForm{
+    padding: 40px 35px;
+  }
+  .zayavkaBlockForm textarea{
+    height: 90px;
+  }
+  .zayavkaBlock {
+    padding-bottom: 80px;
+  }
+  .lkBlock h1{
+    font-size: 32px;
+    margin-top: 70px;
+  }
+  .lkBlock h3 {
+    font: 18px "Gotham Pro Light";
+    margin-bottom: 20px;
+  }
+  .advert h3{
+    font: 22px "Gotham Pro Medium";
+  }
+  .personal,
+  .advert{
+    height: 555px;
+    margin-bottom: 80px;
+  }
+  .lkBlock h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+  .bonus h3{
+    font: bold 20px "Gotham Pro";
+    margin-bottom: 40px;
+  }
+  .bonus{
+    background-position: -100px bottom;
+    padding: 40px 0 60px 50px;
+  }
+  .bonus h4 {
+    font: 18px "Gotham Pro Medium";
+    margin: 0 0 30px;
+  }
+  .bonus .pluso {
+    margin-bottom: 0px;
+  }
+  .lkBlock {
+    padding-bottom: 80px;
+  }
+  .personal input {
+    width: 270px;
+  }
+  .oformlenieBlock{
+    padding: 60px 0 80px;
+  }
+  .oformlenieBlock h2 {
+    font-size: 32px;
+    margin: 0 0 40px;
+    text-align: center;
+  }
+  .boxOformlenie1{
+    width: 100%;
+  }
+  .boxOformlenie1Line{
+    border-bottom: 1px solid #d7d7d7;
+    margin: 20px 0 40px;
+  }
+  .boxOformlenie1Ttl{
+    text-align: center;
+  }
+  .fieldName{
+    font: 18px "Gotham Pro Medium";
+    padding-left: 30px;
+  }
+  .order .field a {
+    margin-left: 0;
+    
+  }
+  .order .field .center {
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+  }
+  .field>.row>div{
+    margin-bottom: 20px;
+  }
+  .order .field{
+    padding-bottom: 0;
+  }
+  .artRotator{
+    height: 440px;
+  }
+  .artRotatorTtl{
+    line-height: 440px;
+  }
+  .artRotatorTtl h1{
+    font-size: 36px;
+  }
+  .blogOne .share{
+    text-align: center;
+  }
+  .blogOne .share .plusoBlock{
+    display: block;
+  }
+  .blogOne .share{
+    margin: 60px 0 0;
+  }
+  .artFeatured .item{
+    margin-bottom: 24px;
+  }
+  .blogOne{
+    margin-bottom: 80px;
+  }
+  .wideQuest .quest h3{
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .rentFeaturebox{
+    margin-bottom: 20px;
+  }
+  .rentFeature{
+    margin-bottom: 80px;
+  }
+  .rentTopTtl h1,
+  .rentTopTtl p{
+    font-size: 32px;
+    text-align: center;
+  }
+  .rentRotator{
+    margin-bottom: 0px;
+    background: url(../images/rent_bg_sm.jpg) no-repeat center bottom;
+    background-size: cover;
+  }
+  .rentFeatureText h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .rentFeatureText{
+    font-size: 16px;
+    height: 210px;
+  }
+  .rentTopBlock{
+    margin-top: 75px;
+  }
+  .rentWide{
+    margin-bottom: 70px;
+    background: #fff;
+  }
+  .rentForm{
+    padding: 80px 120px 60px;
+  }
+  .shugarBgImg{
+    width: 100%;
+  }
+  .shugarTopTtl h1{
+    font-size: 36px;
+    text-align: center;
+  }
+  .shugarTopBlock{
+    margin-top: 70px;
+  }
+  .shugarRotator{
+    margin-bottom: 0;
+  }
+  .shugarWide{
+    background: #fff;
+    margin-bottom: 80px;
+  }
+  .shugarFirst{
+    margin-bottom: 80px;
+  }
+  .shugarClients{
+    padding: 70px 0;
+  }
+  .shugarClients h2{
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  .optRotator h1{
+    font-size: 36px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+  }
+  .optRotator .ico1,
+  .optRotator .ico2{
+    font-size: 17px;
+  }
+  .topRotation{
+    height: 430px;
+  }
+  .optRotator{
+    margin-bottom: 80px;
+  }
+  .optFirst{
+    margin-bottom: 80px;
+  }
+  .assortiment {
+    padding: 80px 0 60px;
+  }
+  .assortiment h2{
+    font-size: 32px;
+    margin-bottom: 60px;
+  }
+  .assTxt h4{
+    font-size: 26px;
+    top:20px;
+  }
+  .assButton{
+    bottom: 20px;
+  }
+  .helpBlock h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  .helpBlock{
+    padding: 80px 0 60px;
+  }
+  .helpBlock .subheader{
+    margin-bottom: 60px;
+  }
+  .servisRotator h1{
+    font-size: 32px;
+    margin: 70px 0;
+  }
+  .servisRotator {
+    height: 630px;
+    background-size: cover;
+    margin-bottom: 80px;
+  }
+  .bigGold{
+    font-size: 48px;
+  }
+  .servisRotator .ico1, .servisRotator .ico2{
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  .servisRotator .row{
+    margin-bottom: 0;
+  }
+  .wohCount .greenButton{
+    width: 220px;
+  }
+  .count1,
+  .count2{
+    height: 110px;
+  }
+  .count3,
+  .count4{
+    height: 80px;
+  }
+  .nocoffemashine h2{
+    font-size: 32px;
+    margin-bottom: 60px;
+  }
+  .nocoffemashine{
+    padding: 80px 0;
+  }
+  .kitchenRotator h1{
+    font-size: 32px;
+    margin: 80px 0 70px;
+  }
+  .kitchenRotator {
+    height: auto;
+    background-size: cover;
+    margin-bottom: 80px;
+  }
+  .kitchenRotator .row{
+    margin-bottom: 70px;
+  }
+  .kitchenRotator .ico1{
+    margin-bottom: 30px;
+  }
+  .kitchenFirst .optFirstTxt{
+    padding: 0 20px;
+  }
+  .assortimentCat h2{
+    font-size: 32px;
+    margin-bottom: 60px;
+  }
+  .assortimentCat .details h4{
+    font-size: 20px;
+  }
+  .assortimentCat .details{
+    top: 20px;
+    left: 20px;
+    font-size: 18px;
+  }
+  .assortimentCat .greenButton{
+    bottom: 20px;
+    left: 20px;
+  }
+  .kitchenHowWeWork h2{
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  .kitchenHowWeWork{
+    padding: 80px 0;
+  }
+
+}
+@media screen and (max-width: 991px){
+  .innerMainBlock{
+    padding: 20px;
+  }
+  .mainBlockHeader{
+    font-size: 18px;
+  }
+  .mainBlockText{
+    font-size: 15px;
+  }
+  .innerMainBlock{
+    min-height: auto;
+  }
+  .mainBlockLink{
+    margin: 0 auto;
+    left:0px;
+    right:0px;
+    text-align: center;
+    font-size: 16px;
+    bottom:20px;
+  }
+  .main1{
+    background: url(../images/main/1_sm.jpg) no-repeat #c99d5f;
+    height: 417px;
+  }
+  .main2{
+    background: url(../images/main/2_sm.jpg) no-repeat #84592e;
+    height: 417px;
+  }
+  .main3{
+    background: url(../images/main/3_sm.jpg) no-repeat #bd8f60;
+    height: 380px;
+  }
+  .main4{
+    background: url(../images/main/4_sm.jpg) no-repeat #c7a468;
+    height: 380px;
+  }
+  .main5{
+    background: url(../images/main/5_sm.jpg) no-repeat #613305;
+    height: 549px;
+  }
+  .main6{
+    background: url(../images/main/6_sm.jpg) no-repeat #a2703b;
+    height: 549px;
+  }
+  .main1>.mainBlockText{
+    margin-top: 40px;
+  }
+  .main2>.mainBlockText{
+    margin-top: 35px;
+  }
+  .main4>.mainBlockText{
+    margin-top: 40px;
+  }
+  .main5>.mainBlockText{
+    margin-top: 35px;
+  }
+  .main6>.mainBlockText{
+    margin-top: 35px;
+  }
+  .mainBlocks{
+    padding-bottom:80px; 
+  }
+  .mainInfoText{
+    padding-top: 20px;
+    margin-bottom:60px; 
+  }
+  .brends{
+    margin-bottom: 50px;
+  }
+  .gtile-i-box{
+    padding-right: 30px;
+    padding-left: 30px; 
+  }
+}
+@media screen and (max-width: 767px){
+  body{
+    margin-bottom: 800px;
+  }
+  #footer{
+    height: 800px;
+  }
+  .menuBlock{
+    width: 80%;
+  }
+  .menuBlock>ul>li>a{
+    padding-left:50px;
+  }
+  .nav>li>a:hover,
+  .nav>li.active>a{
+    padding-left: 48px;
+  }
+  .mainText{
+    height: 166px;
+    padding-top: 40px;
+  }
+  .mainText h1{
+    font-size: 18px;
+  }
+  .mainBlocks{
+    padding-bottom: 40px;
+  }
+  .footerlogo img{
+    width:244px;
+    height: 46px;
+  }
+  .nav li{
+    height: 50px;
+  }
+  .menuBlock>ul>li>a{
+    font-size: 14px;
+    line-height: 50px;
+  }
+  .nav>li>a:hover, .nav>li.active>a {
+    padding-left: 24px;
+  }
+  .menuBlock>ul>li>a {
+    padding-left: 22px;
+  }
+  .brends{
+    margin-bottom:20px; 
+  }
+  .footerMenuSect{
+    display: none;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin: 0px;
+    background: #fff;
+    padding: 10px 0px 10px 25px;
+  }
+  .footerMenuSect li{
+    padding: 10px 0;
+  }
+  .footerMenuTitle{
+    background: #f7f8f9;
+    border: 1px solid #ccc;
+    margin: 0;
+    margin-top: -1px;
+    padding-left: 25px;
+    line-height: 46px;
+    position: relative;
+  }
+  .footerMenuRow{
+    width: 20px;
+    height: 10px;
+    background: url(../images/icons/arrow6.png);
+    position: absolute;
+    right: 25px;
+    top:20px;
+  }
+  .footContact{
+    margin-bottom: 40px;
+  }
+  .footerSecond{
+    padding-top: 0px;
+  }
+  .footerDevelopersSpan{
+    display: block;
+    margin-top: 10px;
+  }
+  #footer:after{
+    background: #fff;
+  }
+  .menuPhone{
+    padding-left: 20px;
+  }
+  .menuPhone>.topFeedback{
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-left: 37px;
+  }
+  .menuPhone>.topPhone{
+    margin-top: 24px;
+  }
+  .footerSotcialAll{
+    margin-top: 25px;
+  }
+  .blogListImg{
+    height: 270px;
+  }
+  .blogListOne{
+    height: auto;
+    padding-bottom: 80px;
+  }
+  .blogListTxt{
+    padding: 30px;
+    height: auto;
+    max-height: 192px;
+  }
+  .blogListReadMore{
+    left:30px;
+  }
+  .breadcrumbs{
+    margin-top: 20px;
+  }
+  .blogList{
+    margin-bottom: 20px;
+  }
+  .itemImg{
+    /*height: 150px;*/
+  }
+  .catalog{
+    margin-top: 25px;
+  }
+  .catParamItems h4{
+    font-size: 14px !important; 
+  }
+  .catParamItems .tastyprice .details{
+    font-size: 13px;
+  }
+  .catParamItems .tastyprice .details strong{
+    font-size: 16px;
+  }
+  .testdrive img{
+    height: 200px;
+  }
+  .catParamItems .testdrive .details p{
+    font-size: 13px;
+  }
+  .catTopInfo p{
+    height: 170px;
+    font-size: 12px;
+  }
+  .catTopInfo{
+    margin-bottom: 40px;
+  }
+  .catalog .post{
+    margin-bottom: 40px;
+  }
+  .err404 h2{
+    padding-top: 50px;
+    font-size: 24px;
+
+  }
+  .err404 .subheader{
+    font-size: 16px;
+    margin-bottom:40px;
+  }
+  .catalogSectImg img{
+    max-width: 100%; 
+    width: auto;
+  }
+  .catalogButton {
+    width: 110px;
+    font-size: 14px;
+    padding: 3px 0;
+  }
+  .searchText{
+    font-size:16px;
+    line-height: 20px;
+    margin-top: 30px;
+  }
+  .catalogOneCartPrice{
+    text-align: center;
+    font-size: 19px;
+  }
+  .catalogOneCartToBasket,
+  .cartOneBonus{
+    float:none;
+    width: 100%;
+    text-align: center;
+  }
+  .ballInfo{
+    text-align: center;
+  }
+  .plusoBlock{
+    text-align: center;
+  }
+  .youCanLikeTtl{
+    text-align: center;
+  }
+  .youCanLikeBlock{
+    margin-bottom: 35px;
+  }
+  .shippingBlock {
+    margin: 40px 0;
+  }
+  .shippingBlock h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .box{
+    margin-bottom: 50px;
+  }
+  .basketEmpty {
+    margin: 30px 0 50px;
+  }
+  .basketEmpty h2{
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  .basketEmpty .greenButton{
+    width: 100%;
+  }
+  .basketEmpty .empty {
+    margin-bottom: 40px;
+  }
+  .basketBlock{
+    margin: 30px 0 40px;
+  }
+  .basketBlock h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .basketBlock .subheader {
+    font-size: 14px;
+    margin-bottom: 50px;
+  }
+  .basketAfter .shareTtl{
+    font-size: 14px;
+  }
+  .basketBlock .share{
+    margin-bottom:0; 
+  }
+  .basketTableRow{
+    height: auto;
+  }
+  .basketImg{
+    line-height: normal;
+    margin: 20px auto;
+  }
+  .cRowTextTtl{
+    margin-top: 0;
+  }
+  .cRowText {
+    margin-bottom: 20px;
+  }
+  .basketFull h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .purge{
+    background: url(../images/icons/closed_xs.png)no-repeat left top;
+    height: 48px;
+    width: 48px;
+    padding: 0;
+  }
+  .purge:hover{
+    background: url(../images/icons/closed_xs.png)no-repeat left bottom;
+  }
+  .purgeDiv{
+    bottom: 20px;
+  }
+  .basketTbl .cRow input {
+    height: 48px;
+    width: 60px;
+  }
+  .basketTbl .cRow .left, .basketTbl .cRow .right{
+    font-size: 36px;
+    padding: 4px 15px;
+  }
+  .cupponBlock,
+  .refreshBlock{
+    text-align: center;
+  }
+  .cupponBlock input{
+    width: 100%;
+    max-width: 360px;
+    margin-top: 10px;
+  }
+  .refreshBlock{
+    margin-top: 30px;
+  }
+  .basketButton{
+    margin-top: 20px !important;
+  }
+  .sum:before{
+    content: "\A";  
+    white-space: pre;
+  }
+  .contactBlock .cont1,
+  .contactBlock .cont2,
+  .contactBlock .cont3,
+  .contactBlock .cont4{
+    margin: 0px;
+    text-align: center;
+    background-position: top center;
+    
+  }
+  .contactBlock .box p{
+    padding: 60px 0 0;
+    margin-bottom: 20px;
+  }
+  .contactBlock .box p .bold{
+    display: block;
+  }
+  .contactBlock h1{
+    font-size: 20px;
+  }
+  .contactBlock .box {
+    margin-bottom: 20px;
+  }
+  .quest h3 {
+    font-size: 16px;
+  }
+  .rentBackForm textarea{
+    margin-bottom: 20px;
+  }
+  .rentBackForm {
+    margin-bottom: 20px;
+  }
+  #YMapsID{
+    height: 400px;
+  }
+  .aboutBlock h1{
+    font-size: 20px;
+  }
+  .aboutBlock .subheader {
+    margin-bottom: 60px;
+    font-size: 14px;
+  }
+  .aboutBlock h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .about_ico1,
+  .about_ico2,
+  .about_ico3,
+  .about_ico4,
+  .about_ico5,
+  .about_ico6{
+    height: auto;
+  }
+  .aboutBlock .box {
+    margin-bottom: 40px;
+  }
+  .aboutBlock .clients h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .brands {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+  .brands .item img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .aboutBlock .about_ico5,
+  .aboutBlock .about_ico6{
+    margin-bottom: 40px;
+  }
+
+  .zayavkaBlock h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+  }
+  .zayavkaBlock .subheader {
+    font-size: 14px;
+  }
+  .zayavkaBlockForm{
+    padding: 30px 25px;
+  }
+  .zayavkaBlock .greenButton{
+    margin-top: 40px;
+  }
+  .zayavkaBlock {
+    padding-bottom: 40px;
+  }
+
+  .lkBlock h1{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 60px;  
+  }
+  .lkBlock h3 {
+    font: 14px "Gotham Pro Light";
+  }
+  .advert h3{
+    font-size: 16px;
+  }
+  .personal,
+  .advert{
+    height: auto;
+    margin-bottom: 40px;
+  }
+  .lkBlock h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .bonus h3{
+    font: bold 16px "Gotham Pro";
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .bonus{
+    padding: 30px 10px;
+    
+  }
+  .bonus h4 {
+    font: 14px "Gotham Pro Medium";
+    margin: 0 0 25px;
+    text-align: center;
+  }
+  .bonus .plusoBlock {
+    text-align: left;
+  }
+  .lkBlock {
+    padding-bottom: 40px;
+  }
+
+  .oformlenieBlock{
+    padding: 30px 0 40px;
+  }
+  .oformlenieBlock h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .boxOformlenie1{
+    margin: 30px auto;
+  }
+  .boxOformlenie1Ttl{
+    font-size: 16px;
+  }
+  .inpBlock{
+    margin: 0 20px;
+  }
+  .boxOformlenie1Line{
+    margin: 30px 0;
+  }
+  .oformlenieBox{
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .oformlenieBox .centerText{
+    text-align: center;
+  }
+  .paydelright{
+    text-align: center;
+  }
+  .centerText {
+    line-height: normal;
+  }
+  .delLogo,
+  .payLogo{
+    margin-bottom: 15px;
+  }
+  .paydelline{
+    margin: 0;
+  }
+  .oformlenieBox{
+    text-align: left;
+  }
+  .fieldRow{
+    padding: 0 15px;
+  }
+  .fieldName{
+    padding-left: 0;
+  }
+  .order .underTable{
+    text-align: center;
+  }
+  .submit .greenButton{
+    margin-top: 30px;
+  }
+  .artRotatorTtl h1{
+    font-size: 20px;
+  }
+  .artRotator{
+    height: 220px;
+  }
+  .artRotatorTtl{
+    line-height: 220px;
+  }
+  .blogOne .share span{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .blogOne .share{
+    margin-top: 40px;
+  }
+  .content{
+    padding: 30px 20px;
+  }
+  .fact h3{
+    margin-top: 20px;
+  }
+  .fact {
+    margin-bottom: 0px;
+  }
+  .blogOne{
+    margin-bottom: 40px;
+  }
+  .wideQuest{
+    padding: 40px 0 0;
+  }
+  .wideQuest .quest h3{
+    font-size: 16px;
+
+  }
+  .questUnderTtl{
+    font-size: 14px;
+  }
+  .addressBlock{
+    height: auto;
+  }
+  .zahodi{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .rentBackForm textarea{
+    height: 100px;
+  }
+  .addrTxt{
+    float:none;
+    width:100%;
+  }
+  .addr1 img, .addr2 img{
+    float:none;
+    display: inline-block;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .addressBlock{
+    text-align: center;
+  }
+  .addr1,
+  .addr2{
+    height: auto;
+    margin: 20px 0;
+  }
+  .rentForm input{
+    width: 100%;
+  }
+  .rentTopTtl h1, .rentTopTtl p{
+    font-size: 20px;
+  }
+  .rentTopBlock{
+    margin-top: 50px;
+  }
+  .rentForm{
+    padding: 30px 0;
+  }
+  .rentForm h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .rentForm .desc{
+    font-size: 14px;
+  }
+  .rentFeatureText h3{
+    font-size: 16px;
+  }
+  .rentFeatureText{
+    font-size: 14px;
+    height: auto;
+  }
+  .rentFeature{
+    margin-bottom: 40px;
+  }
+  .shugarTopTtl h1{
+    font-size: 32px;
+  }
+  .shugarTopBlock{
+    margin-top: 50px;
+  }
+  .shugarWide{
+    margin-bottom: 40px;
+  }
+  .shugarFirst{
+    margin-bottom: 40px;
+  }
+  .shugarClients{
+    padding: 40px 0;
+  }
+  .shugarClients h2{
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .optRotator h1{
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+  }
+  .optRotator .ico1, .optRotator .ico2{
+    margin: 0 30px;
+    font-size: 16px;
+  }
+  .optRotator{
+    margin-bottom: 40px;
+  }
+  .optFirstTxt h4{
+    font-size: 16px;
+  }
+  .optFirst{
+    margin-bottom: 40px;
+  }
+  .assortiment h2{
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .assortiment{
+    padding: 40px 0 30px;
+  }
+  .assortimentItem{
+    margin-bottom: 10px;
+  }
+  .helpBlock{
+    padding: 40px 0 30px;
+    height: auto;
+  }
+  .helpBlock h2{
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .helpBlock .subheader{
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+  .nocoffeBlock{
+    width: 100%;
+  }
+  .servisRotator h1{
+    margin: 40px 0;
+    font-size: 20px;
+  }
+  .bigGold{
+    font-size: 36px;
+    float:none;
+    text-align: center;
+  }
+  .servisRotator .row{
+    text-align: center;
+  }
+  .servisRotator .ico1, .servisRotator .ico2{
+    margin-bottom: 30px;
+  }
+  .servisRotator{
+    height: auto;
+    margin-bottom: 40px;
+  }
+  .servisRotator .greenButton{
+    margin-bottom: 30px;
+  }
+  .numCount{
+    font-size: 55px;
+  }
+  .wohCount span{
+    margin-left: 40px;
+  }
+  .wohCount .greenButton{
+    margin-left: 40px;
+  }
+  .assortiment h2{
+    margin-bottom: 25px;
+  }
+  .numCount {
+    height: auto;
+  }
+  .nocoffemashine h2{
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .nocoffemashine{
+    padding: 40px 0;
+  }
+  .kitchenRotator h1{
+    margin: 50px 0;
+    font-size: 16px;
+  }
+  .kitchenRotator .ico1{
+    font-size: 14px;
+    margin-left: 20px;
+    padding-left: 60px;
+  }
+  .kitchenRotator .row{
+    margin-bottom: 40px;
+  }
+  .kitchenRotator{
+    margin-bottom: 40px;
+  }
+  .assortimentCat h2{
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .assortimentCat .item{
+    height: 320px;
+    margin-bottom: 10px;
+  }
+  .assortimentCat .item img{
+    min-height: 100%;
+    min-width:100%;
+  }
+  .assortimentCat{
+    margin-bottom: 50px;
+  }
+  .kitchenHowWeWork h2{
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .kitchenHowWeWork{
+    padding: 40px 0;
+  }
+  .wohCount{
+    margin: 0 0 30px;
+    height: auto;
+    font-size: 12px;
+  }
+  .numCount{
+    line-height: 40px;
+  }
+
+}
+@media screen and (max-width: 640px){
+  .catFiltrBlock{
+    width: 100%;
+    padding: 10px 10px 30px;
+  }
+}
+@media screen and (max-width: 440px){
+  .brends>div>img{
+    width: 100%;
+  }
+}
